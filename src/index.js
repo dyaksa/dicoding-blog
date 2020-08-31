@@ -7,7 +7,6 @@ const hero = document.querySelector(".hero");
 
 menu.addEventListener("click", (event) => {
   drawer.classList.toggle("open");
-  console.log(drawer);
   event.stopPropagation();
 });
 
